@@ -25,7 +25,7 @@ export const CarritoPage = () => {
       <h3 className="sinCompras" hidden={listaCompras.length > 0}>
         No tienes{" "}
         <a className="linkCompras" hidden={listaCompras.length > 0} href="/">
-          Productos
+          productos
         </a>{" "}
         agregados
       </h3>
