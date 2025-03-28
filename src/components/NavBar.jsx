@@ -12,7 +12,7 @@ export const NavBar = () => {
       data-bs-theme="dark"
     >
       <div className="container-fluid">
-        <NavLink to="/" className="navbar-brand">
+        <NavLink to="/" className="navbar-brand productos">
           Productos
         </NavLink>
         <NavLink to="/carrito">
