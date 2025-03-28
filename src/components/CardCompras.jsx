@@ -29,7 +29,7 @@ export const Card = ({ producto }) => {
               type="button"
               onClick={() => clickQuitar(producto)}
             >
-              Quitar del carrito
+              Remove
             </button>
           ) : (
             <button
@@ -37,7 +37,7 @@ export const Card = ({ producto }) => {
               type="button"
               onClick={() => clickAgregar(producto)}
             >
-              Agregar al carrito
+              Add
             </button>
           )}
         </div>

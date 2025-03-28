@@ -13,7 +13,7 @@ export const NavBar = () => {
     >
       <div className="container-fluid">
         <NavLink to="/" className="navbar-brand productos">
-          Productos
+          Products
         </NavLink>
         <NavLink to="/carrito">
           <Badge badgeContent={listaCompras.length} color="secondary">
